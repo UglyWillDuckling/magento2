@@ -1,0 +1,21 @@
+{
+    "name": "GaussDev/module-extracheckoutaddressfields",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@GaussDev.nl",
+            "name": "GaussDev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "GaussDev\\ExtraCheckoutAddressFields\\": ""
+        }
+    }
+}

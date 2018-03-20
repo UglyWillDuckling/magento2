@@ -10,7 +10,7 @@
     <table name="queue" resource="default" engine="innodb" comment="Table storing unique queues">
         <column xsi:type="int" name="id" padding="10" unsigned="true" nullable="false" identity="true"
                 comment="Queue ID"/>
-        <column xsi:type="varchar" name="name" nullable="true" length="255" comment="Queue name"/>
+        <column xsi:type="varchar" name="name" nullable="true" length="125" comment="Queue name"/>
         <constraint xsi:type="primary" name="PRIMARY">
             <column name="id"/>
         </constraint>
